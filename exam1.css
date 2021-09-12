@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    
+    background-color: grey;
+    padding: 10px;
+   
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 350px;
+    
+   
+ }
+
+
+nav ul li{
+    list-style: none;
+    background-color: red;
+    padding: 10px;
+    margin: 5px;
+    width: 60px;
+    text-align: center;
+    border-radius: 15px;
+   
+
+
+}
+nav ul li a{
+
+    text-decoration: none;
+    color: white;
+ 
+}
+nav ul li:hover{
+    background-color: blue;
+}
+.about{
+    text-align: center;
+    height: 80vh;
+    
+}
+.shubham{
+    margin-top: 100px;
+}
+.shubham h2{
+    background-color: red;
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+header::before{
+    background: url('img/back2.png') no-repeat center center/cover;
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .45;
+}
+.about2{
+    display: flex;
+    /* background-color: yellow; */
+    border: 2px solid red;
+    margin: 10px;
+}
+.about2 .img{
+    margin-left:50px;
+margin-right: 30px;
+text-align: center;
+}
+.about2 .para{
+width: 30%;
+margin-top: 130px;
+margin-left:50px;
+margin-right: 30px;
+}
+.about2 .address{
+    margin-top: 120px;
+margin-left:50px;
+margin-right: 30px;
+}
+.container{
+width: 40%;
+margin-left: 5%;
+margin-top: 2%;
+display: flex;
+flex-direction: column;
+/* background-color: turquoise; */
+
+
+/* background-color: coral; */
+}
+.box1{
+    width: 90%;
+    margin-top: 30px;
+}
+.head{
+    text-align: center;
+    background-color: red;
+    margin-left: 140px;
+    margin-right: 140px;
+    padding: 12px;
+    border-radius: 20px 0px 30px 20px;
+    color: white;
+}
+.info{
+    text-align: center;
+}
+div.educer{
+    display: flex;
+    flex-direction: row;
+}
+.myskill{
+    display: flex;
+    margin: 10px auto;
+    background-color: salmon;
+    flex-direction: row;
+}
+.coding{
+    width: 500px;
+    margin: 60px 100px ;
+    color:blue;
+    list-style: none;
+}
+.coding li{
+    margin: 20px 0;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background:#2187e7 ;
+}
+.c{
+    width: 90%;
+}
+.cpp{
+    width: 80%;
+}
+.js{
+    width: 50%;
+}
+.php{
+    width: 30%;
+}
+.contact{
+    text-align: center;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+   
+}
+.contact h2{
+    padding: 10px;
+}
+.contact h2 a{
+    text-decoration: none;
+}
